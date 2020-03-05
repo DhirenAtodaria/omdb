@@ -1,0 +1,30 @@
+.wrapper {
+    .overlay {
+        width: 20vw;
+    }
+    
+
+
+    .Navbar {
+        position: fixed;
+        width: 20vw;
+        height: 100vh;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+        h1{
+            padding-top: 10px;
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            // height: 20%;
+            width: unset;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+    }
+}

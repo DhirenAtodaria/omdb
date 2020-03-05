@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    .controlling {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;        
+    }
+}
