@@ -6,7 +6,7 @@ export default class Navitem extends Component {
     render() {
         return (
             <p className={styles.item}>
-                <Link onClick={this.props.clickEvent} to={this.props.route} className={styles.item}>{this.props.name}</Link>
+                <Link onClick={this.props.clickEvent} to="#" className={styles.item}>{this.props.name}</Link>
             </p>
         )
     }
