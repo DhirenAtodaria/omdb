@@ -11,9 +11,7 @@ export default class MovieList extends Component {
     //     this.textInput = React.createRef();
     // }
 
-    handleChange() {
-        console.log(this.myInput.value)
-    }
+    
    
     render() {
         return (
