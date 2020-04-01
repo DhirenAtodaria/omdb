@@ -12,7 +12,7 @@ class App extends Component {
 
   
   state = {
-    url: 'http://www.omdbapi.com/?s=star&apikey=a3733e00',
+    url: 'https://www.omdbapi.com/?s=star&apikey=a3733e00',
     MovieList: []
   }
 
@@ -35,8 +35,8 @@ class App extends Component {
   }
 
   handleChange() {
-    console.log(`http://www.omdbapi.com/?s=${this.myInput.value}&apikey=a3733e00`)
-    fetch(`http://www.omdbapi.com/?s=${this.myInput.value}&apikey=a3733e00`)
+    console.log(`https://www.omdbapi.com/?s=${this.myInput.value}&apikey=a3733e00`)
+    fetch(`https://www.omdbapi.com/?s=${this.myInput.value}&apikey=a3733e00`)
       .catch(err => {console.log(err)})
       .then(res => res.json())
       .then(
