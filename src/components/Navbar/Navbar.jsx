@@ -11,7 +11,6 @@ export default class Navbar extends Component {
 
                 <div className={styles.Navbar}>
                     <h1>OMDB</h1>
-                    <Navitem route="login" name="Login" />
                     <Navitem clickEvent={this.props.defaultData} route="movielist" name="Movielist" />
 
                     <div className={styles.list}>
